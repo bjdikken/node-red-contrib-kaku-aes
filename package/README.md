@@ -6,9 +6,3 @@ use package uploader from node-red settings
 
 # Sample Flows
 not yet available 
-
-# CryptoJS 
-> JavaScript library of crypto standards.
-
-Encrypt and Decrypt Nodes:
-* crypto-js/aes
