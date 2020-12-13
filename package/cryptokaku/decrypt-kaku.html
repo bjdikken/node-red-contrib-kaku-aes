@@ -1,0 +1,29 @@
+<script type="text/javascript">
+	RED.nodes.registerType('decrypt-kaku', {
+		category: 'function',
+		color: '#a6bbcf',
+		defaults: {
+			name: {value: ''}, key: {value: ''}},
+		inputs: 1,
+		outputs: 1,
+		icon: "hash.png",
+		label: function () {
+			return this.name || "decrypt";
+		}
+	});
+</script>
+
+<script type="text/x-red" data-template-name="decrypt-kaku">
+	<div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-key"><i class="icon-tag"></i> Key</label>
+		<input type="text" id="node-input-key" placeholder="Key">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="decrypt-kaku">
+    <p>Decrypt kaku payload.</p>
+</script>

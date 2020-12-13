@@ -1,0 +1,30 @@
+{
+  "name": "node-red-kaku-aes",
+  "version": "0.0.2",
+  "description": "Node-RED nodes using CryptoJS to encrypt and decrypt kaku messages",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjdikken/node-red-contrib-kaku-aes"
+  },
+  "scripts": {
+    "test": "node-red"
+  },
+  "keywords": [
+    "node-red"
+  ],
+  "author": "Bas Jan Dikken",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bjdikken/node-red-contrib-kaku-aes/issues"
+  },
+  "homepage": "https://github.com/bjdikken/node-red-contrib-kaku-aes#readme",
+  "dependencies": {
+    "crypto-js": "^4.0.0-1"
+  },
+  "node-red": {
+    "nodes": {
+      "encrypt-kaku": "cryptokaku/encrypt-kaku.js",
+      "decrypt-kaku": "cryptokaku/decrypt-kaku.js"
+    }
+  }
+}
