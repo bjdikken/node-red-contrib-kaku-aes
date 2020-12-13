@@ -12,7 +12,7 @@
   "keywords": [
     "node-red"
   ],
-  "author": "Bas Jan Dikken",
+  "author": "bjdikken",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bjdikken/node-red-contrib-kaku-aes/issues"
