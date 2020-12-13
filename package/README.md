@@ -2,7 +2,7 @@
 Node-RED nodes using CryptoJS to encrypt and decrypt kaku messages
 
 # Install
-#npm install node-red-kaku-aes
+#npm install node-red-kaku-aes \n
 use package uploader from node-red settings
 
 # Sample Flows
